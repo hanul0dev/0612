@@ -9,7 +9,7 @@
     <script>
         $(document).ready(function(){
             var clearQueue=false;//true : 모든 애니메이션 중지, false: 현재 실행중인 애니메이션만 중지
-            var goToEnd=false;//어떤 상태로 애니메이션이 중지 될지 설정
+            var goToEnd=false;//어떤 상태로 애니메이션이 중지 될지 설정, 현재시점에서 중지/종료시점에서 중지
             $("#clearQueue").change(function(){
                 clearQueue=$(this).prop("checked")
             });
